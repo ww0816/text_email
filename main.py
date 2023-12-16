@@ -46,10 +46,7 @@ st.set_page_config(page_title="Globalize Email", page_icon=":robot:")#设置页�
 st.header("Globalize Text")
 
 #简介
-col1 = st.columns(1)#设置界面栏
-
-with col1:
-    st.markdown("Often professionals would like to improve their emails, but don't have the skills to do so. \n\n This tool \
+st.markdown("Often professionals would like to improve their emails, but don't have the skills to do so. \n\n This tool \
                 will help you improve your email skills by converting your emails into a more professional format. This tool \
                 is powered by [LangChain](https://langchain.com/) and [OpenAI](https://openai.com)")
 

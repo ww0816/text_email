@@ -38,7 +38,7 @@ prompt = PromptTemplate(
     template=template,
 )
 def load_LLM(openai_api_key):
-    llm = openai.BaseOpenAI(temperature=.7, openai_api_key=openai_api_key)
+    llm = openai.OpenAI(temperature=.7, openai_api_key=openai_api_key)
     return llm
 
 #主题
